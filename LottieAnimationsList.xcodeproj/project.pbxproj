@@ -13,6 +13,10 @@
 		5175FFA02D56753B00CCB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5175FF9A2D56753B00CCB0D3 /* Assets.xcassets */; };
 		5175FFA62D56774400CCB0D3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5175FFA52D56774400CCB0D3 /* Lottie */; };
 		5175FFA82D56777900CCB0D3 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FFA72D56776F00CCB0D3 /* LottieView.swift */; };
+		5175FFAB2D56787000CCB0D3 /* CuteCat.json in Resources */ = {isa = PBXBuildFile; fileRef = 5175FFAA2D56787000CCB0D3 /* CuteCat.json */; };
+		5175FFAD2D56793300CCB0D3 /* ColorCircle.json in Resources */ = {isa = PBXBuildFile; fileRef = 5175FFAC2D56793300CCB0D3 /* ColorCircle.json */; };
+		5175FFB12D56799900CCB0D3 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FFB02D56799900CCB0D3 /* FavouriteAnimation.swift */; };
+		5175FFB52D567A7300CCB0D3 /* PurpleFlower.json in Resources */ = {isa = PBXBuildFile; fileRef = 5175FFB42D567A7300CCB0D3 /* PurpleFlower.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5175FF9A2D56753B00CCB0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5175FF9B2D56753B00CCB0D3 /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 		5175FFA72D56776F00CCB0D3 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		5175FFAA2D56787000CCB0D3 /* CuteCat.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CuteCat.json; sourceTree = "<group>"; };
+		5175FFAC2D56793300CCB0D3 /* ColorCircle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ColorCircle.json; sourceTree = "<group>"; };
+		5175FFB02D56799900CCB0D3 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
+		5175FFB42D567A7300CCB0D3 /* PurpleFlower.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PurpleFlower.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				5175FF9B2D56753B00CCB0D3 /* LottieAnimationsListApp.swift */,
+				5175FFA92D56783200CCB0D3 /* Animations */,
 				5175FFA32D56756D00CCB0D3 /* Model */,
 				5175FFA12D56754700CCB0D3 /* Views */,
 				5175FF982D56753B00CCB0D3 /* Preview Content */,
@@ -84,8 +93,19 @@
 		5175FFA32D56756D00CCB0D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5175FFB02D56799900CCB0D3 /* FavouriteAnimation.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5175FFA92D56783200CCB0D3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				5175FFAA2D56787000CCB0D3 /* CuteCat.json */,
+				5175FFAC2D56793300CCB0D3 /* ColorCircle.json */,
+				5175FFB42D567A7300CCB0D3 /* PurpleFlower.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5175FF9F2D56753B00CCB0D3 /* Preview Assets.xcassets in Resources */,
+				5175FFB52D567A7300CCB0D3 /* PurpleFlower.json in Resources */,
+				5175FFAD2D56793300CCB0D3 /* ColorCircle.json in Resources */,
 				5175FFA02D56753B00CCB0D3 /* Assets.xcassets in Resources */,
+				5175FFAB2D56787000CCB0D3 /* CuteCat.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5175FFB12D56799900CCB0D3 /* FavouriteAnimation.swift in Sources */,
 				5175FF9D2D56753B00CCB0D3 /* AnimationsListView.swift in Sources */,
 				5175FF9E2D56753B00CCB0D3 /* LottieAnimationsListApp.swift in Sources */,
 				5175FFA82D56777900CCB0D3 /* LottieView.swift in Sources */,
