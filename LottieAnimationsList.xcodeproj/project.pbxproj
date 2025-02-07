@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5175FF9D2D56753B00CCB0D3 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FF992D56753B00CCB0D3 /* AnimationsListView.swift */; };
+		5175FF9E2D56753B00CCB0D3 /* LottieAnimationsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FF9B2D56753B00CCB0D3 /* LottieAnimationsListApp.swift */; };
+		5175FF9F2D56753B00CCB0D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5175FF972D56753B00CCB0D3 /* Preview Assets.xcassets */; };
+		5175FFA02D56753B00CCB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5175FF9A2D56753B00CCB0D3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5175FF862D56741800CCB0D3 /* LottieAnimationsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5175FF972D56753B00CCB0D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5175FF992D56753B00CCB0D3 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
+		5175FF9A2D56753B00CCB0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5175FF9B2D56753B00CCB0D3 /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5175FF882D56741800CCB0D3 /* LottieAnimationsList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LottieAnimationsList;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5175FF832D56741800CCB0D3 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		5175FF7D2D56741800CCB0D3 = {
 			isa = PBXGroup;
 			children = (
-				5175FF882D56741800CCB0D3 /* LottieAnimationsList */,
+				5175FF9C2D56753B00CCB0D3 /* LottieAnimationsList */,
 				5175FF872D56741800CCB0D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,41 @@
 				5175FF862D56741800CCB0D3 /* LottieAnimationsList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5175FF982D56753B00CCB0D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5175FF972D56753B00CCB0D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5175FF9C2D56753B00CCB0D3 /* LottieAnimationsList */ = {
+			isa = PBXGroup;
+			children = (
+				5175FF9B2D56753B00CCB0D3 /* LottieAnimationsListApp.swift */,
+				5175FFA32D56756D00CCB0D3 /* Model */,
+				5175FFA12D56754700CCB0D3 /* Views */,
+				5175FF982D56753B00CCB0D3 /* Preview Content */,
+				5175FF9A2D56753B00CCB0D3 /* Assets.xcassets */,
+			);
+			path = LottieAnimationsList;
+			sourceTree = "<group>";
+		};
+		5175FFA12D56754700CCB0D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5175FF992D56753B00CCB0D3 /* AnimationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5175FFA32D56756D00CCB0D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +97,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5175FF882D56741800CCB0D3 /* LottieAnimationsList */,
 			);
 			name = LottieAnimationsList;
 			packageProductDependencies = (
@@ -109,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5175FF9F2D56753B00CCB0D3 /* Preview Assets.xcassets in Resources */,
+				5175FFA02D56753B00CCB0D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5175FF9D2D56753B00CCB0D3 /* AnimationsListView.swift in Sources */,
+				5175FF9E2D56753B00CCB0D3 /* LottieAnimationsListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
